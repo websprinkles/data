@@ -1,11 +1,58 @@
 {
-  "posts": [
+  "users": [
     {
       "id": 1,
-      "title": "hello"
+      "name": "Trevor Venier"
+    },
+    {
+      "id": 2,
+      "name": "Jerome Watts"
+    },
+    {
+      "id": 3,
+      "name": "Mina Moore"
     }
   ],
-  "profile": {
-    "name": "typicode"
+  "accounts": [
+    {
+    "id": 1,
+    "userId": 2,
+    "accountTypeId": 2,
+    "balance": 500
+  }, {
+    "id": 2,
+    "userId": 3,
+    "accountTypeId": 3,
+    "balance": 1500
+  }],
+  "logs": [{
+    "id": 1,
+    "date": '22-03-1988',
+    "userId": 2,
+    "amount": 200
+  },
+  {
+    "id": 2,
+    "date": '22-03-1978',
+    "userId": 2,
+    "amount": 1200
+  }],
+  "accountTypes": [
+    {
+    "id": 1,
+    "type": "Student",
+    "maxNegativeBalance": 0
+  },
+    {
+    "id": 2,
+    "type": "Business",
+    "maxNegativeBalance": 100000
+  },
+    {
+    "id": 3,
+    "type": "Giro",
+    "maxNegativeBalance": 4000
   }
+  ]
+  
 }
